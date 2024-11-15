@@ -19,7 +19,7 @@ def start_scheduler(bot: Bot):
 
 
 async def check_medication_schedule(bot: Bot):
-    session = Session()
+    #session = Session()
     now = datetime.now()
 
     # Получаем все расписания, которые наступают в будущем или близки к текущему времени
